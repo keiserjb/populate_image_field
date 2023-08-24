@@ -1,0 +1,5 @@
+name: Populate Image Field
+type: module
+description: Get the first Image in the body field and put it in the image field.
+package: Custom
+core_version_requirement: ^9 || ^10

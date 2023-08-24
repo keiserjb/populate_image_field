@@ -1,0 +1,5 @@
+services:
+  populate_image_field.command:
+    class: \Drupal\populate_image_field\Commands\PopulateImageFieldCommand
+    tags:
+      - { name: drush.command }
